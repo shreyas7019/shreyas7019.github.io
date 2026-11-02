@@ -24,3 +24,13 @@ document.querySelector('#experience .experience > div').innerHTML='<h3>Business 
 document.querySelector('#contact h2').textContent="Let's connect the dots.";
 document.querySelector('#contact .eyebrow').textContent='04 / Get in touch';
 document.querySelector('footer').insertAdjacentHTML('beforeend','<div class="footer-links"><a href="https://github.com/shreyas7019">GitHub ↗</a><a href="https://www.linkedin.com/in/shreyas7019/">LinkedIn ↗</a></div>');
+
+// Professional identity and direct section labels.
+document.querySelector('.brand').textContent='SHREYAS ADYANTHAYA';
+document.querySelector('h1').innerHTML='Business intelligence.<br>Clearer decisions.';
+document.querySelector('header .eyebrow').textContent='Shreyas Adyanthaya / Data portfolio';
+document.querySelector('#projects h2').textContent='Selected projects';
+document.querySelector('.windowbar').textContent='FEATURED PROJECT';
+document.querySelector('#skills h2').textContent='Technical skills';
+document.querySelector('#contact h2').textContent='Let’s work together.';
+document.querySelector('#experience h2').innerHTML='Professional experience<br>& education';
